@@ -2,7 +2,6 @@
 import board
 import busio
 import os                       # To play .wav files
-from digitalio import DigitalInOut
 
 import adafruit_character_lcd.character_lcd_rgb_i2c as character_lcd
 from gpiozero import Button, Buzzer, MotionSensor
