@@ -76,7 +76,6 @@ armed = False
 sensorTriggered = False
 lcd.clear()
 lcd.color = white
-start = time()
 buzzer.off()
 
 def alarm_on():
